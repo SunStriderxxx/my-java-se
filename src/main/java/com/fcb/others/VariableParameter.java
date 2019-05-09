@@ -21,20 +21,20 @@ public class VariableParameter {
     public void test(int i){
         System.out.println(i);
     }
-
+//输入参数为数量固定相同类型，使用数组
     public void test(int[] arr){
         for(int i : arr){
             System.out.println(i);
         }
     }
-
+//输入参数为类型不同，用类包装
     public void test(Test test){
         System.out.println(test.getAge());
         System.out.println(test.getName());
         System.out.println(test.getAre());
         System.out.println(test.getMoney());
     }
-
+//输入变量为数量变化的参数，用可变参数
     public void test(String... strs){
         for (String str: strs){
             System.out.println(str);
