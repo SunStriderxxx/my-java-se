@@ -1,4 +1,4 @@
-/**
+package tyt; /**
  * @author:Administrator
  * @date: 2019/5/20
  * @description:
@@ -8,7 +8,7 @@ public class mysqlconnection {
     public static void main(String[] args) {
     Connection connection = null;
     PreparedStatement state = null;
-    ResultSet rest = null;
+//    ResultSet rest = null;
     String url = "jdbc:mysql://localhost:3306/mytest?serverTimezone=GMT";
     String user = "root";
     String password = "";
@@ -41,11 +41,11 @@ public class mysqlconnection {
     }
     finally {
         //关闭资源
-        try {
-            rest.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            rest.close();
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
         try {
             state.close();
         } catch (SQLException e) {

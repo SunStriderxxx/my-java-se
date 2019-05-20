@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68f59718-80fa-4132-9e0c-0ad72680ce54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyt/Mysqlconnection/mysqlconnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyt/Mysqlconnection/mysqlconnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tyt/mysqlconnection.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,23 +29,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tyt/Mysqlconnection/mysqlconnection.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tyt/mysqlconnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fcb/bean/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="171">
+              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -77,6 +63,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fcb/io/Serialization.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fcb/io/MyIO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tyt/Mysqlconnection/mysqlconnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tyt/mysqlconnection.java" />
       </list>
     </option>
   </component>
@@ -158,25 +145,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-java-se" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-java-se" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fcb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-java-se" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-java-se" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Mysqlconnection" type="462c0819:PsiDirectoryNode" />
+              <item name="tyt" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.mysqlconnection">
+  <component name="RunManager" selected="Application.mysqlconnection (1)">
     <configuration name="MyIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fcb.io.MyIO" />
       <module name="my-java-se" />
@@ -232,8 +201,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VariableParameter (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="VariableParameter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fcb.others.VariableParameter" />
+      <module name="my-java-se" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.fcb.others.*" />
@@ -244,12 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VariableParameter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fcb.others.VariableParameter" />
+    <configuration name="mysqlconnection (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tyt.mysqlconnection" />
       <module name="my-java-se" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fcb.others.*" />
+          <option name="PATTERN" value="tyt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,18 +236,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.VariableParameter" />
-      <item itemvalue="Application.VariableParameter (1)" />
       <item itemvalue="Application.MyReflection" />
       <item itemvalue="Application.MyIO" />
       <item itemvalue="Application.mysqlconnection" />
+      <item itemvalue="Application.mysqlconnection (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.mysqlconnection (1)" />
         <item itemvalue="Application.mysqlconnection" />
         <item itemvalue="Application.MyIO" />
         <item itemvalue="Application.MyReflection" />
         <item itemvalue="Application.VariableParameter" />
-        <item itemvalue="Application.VariableParameter (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +274,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26542416" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26542416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -313,14 +283,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32839838" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32839838" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32839838" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32839838" />
@@ -413,17 +383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fcb/bean/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fcb/others/VariableParameter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -435,10 +394,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tyt/Mysqlconnection/mysqlconnection.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fcb/bean/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+        <state relative-caret-position="31">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tyt/mysqlconnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
