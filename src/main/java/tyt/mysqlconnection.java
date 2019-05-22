@@ -21,13 +21,13 @@ public class mysqlconnection {
 //        while (rest.next()) {
 //            System.out.print("name:" + rest.getString("name") + "  id:" + rest.getInt("id"));
 //        }
-        //增加,会有nullpointexception(41行）,插入成功
+        //增加
 //        String sql02 = "insert into student(name,class_num) values(?,?)";
 //        state = connection.prepareStatement(sql02);
 //        state.setString(1,"黄哑巴");
 //        state.setInt(2,1903);
 //        state.executeUpdate();
-        //删除和更改,会有nullpointexception(41行）
+        //删除和更改
 //        String sql03 = "delete from student where name='黄哑巴';";
         String sql04 = "update student set name='黄黄黄',class_num=1905 where id=60;";
         state=connection.prepareStatement(sql04);
